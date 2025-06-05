@@ -14,7 +14,8 @@
         source_path="/tmp/tmpsykd339y"
         target_path="/tmp/tmphz8a5xe8"
         syshandler_adress="localhost"
-        syshandler_port="1234">
+        syshandler_port="1234"
+        version="6-project-toml">
 
 
     <b-fabric>
@@ -37,7 +38,8 @@
         source_path="/tmp/tmpsykd339y"
         target_path="/tmp/tmphz8a5xe8"
         syshandler_adress="localhost"
-        syshandler_port="1234">
+        syshandler_port="1234"
+        version="6-project-toml">
 
 
     <b-fabric>
@@ -61,7 +63,8 @@
         target_path="/srv/www/htdocs"
         copied_files_log="./log/test_copied_files.txt"
         syshandler_adress="ms-fgcz.uzh.ch"
-        syshandler_port="514">
+        syshandler_port="514"
+        version="6-project-toml">
     <b-fabric>
       <applicationID>93</applicationID>
     </b-fabric>
