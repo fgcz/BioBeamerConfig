@@ -39,7 +39,8 @@
         target_path="/tmp/tmphz8a5xe8"
         syshandler_adress="localhost"
         syshandler_port="1234"
-        version="6-project-toml">
+        version="6-project-toml"
+        tool="scp">
 
 
     <b-fabric>
