@@ -97,5 +97,27 @@
     </b-fabric>
   </host>
 
+  <host name="testhost_real_remote_scp"
+        instrument="TestInstrument"
+        min_size="10"
+        min_time_diff="0"
+        max_time_diff="604800"
+        max_time_delete="172800"
+        simulate_copy="false"
+        simulate_delete="false"
+        robocopy_mov="false"
+        func_target_mapping=""
+        pattern=".*"
+        source_path="/tmp/biobeamer_src"
+        target_path="130.60.81.105:/tmp/biobeamer_tgt"
+        syshandler_adress="130.60.81.105"
+        syshandler_port="22"
+        version="6-project-toml"
+        tool="scp">
+    <b-fabric>
+      <applicationID>185</applicationID>
+    </b-fabric>
+  </host>
+
 
 </BioBeamerHosts>
