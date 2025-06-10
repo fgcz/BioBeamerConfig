@@ -109,7 +109,7 @@
         func_target_mapping=""
         pattern=".*"
         source_path="/tmp/tmpsykd339y"
-        target_path="130.60.81.105:/tmp/biobeamer_tgt"
+        target_path="bfabriclocal@130.60.81.105:/tmp/biobeamer_tgt"
         syshandler_adress="130.60.81.105"
         syshandler_port="22"
         version="6-project-toml"
