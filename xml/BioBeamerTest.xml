@@ -119,5 +119,27 @@
     </b-fabric>
   </host>
 
+  <host name="testhost_log_check"
+        instrument="TestInstrument"
+        min_size="10"
+        min_time_diff="0"
+        max_time_diff="604800"
+        max_time_delete="172800"
+        simulate_copy="false"
+        simulate_delete="false"
+        robocopy_mov="false"
+        func_target_mapping=""
+        pattern=".*"
+        source_path="/tmp/tmpsykd339y"
+        target_path="/tmp/tmphz8a5xe8"
+        syshandler_adress="localhost"
+        syshandler_port="1234"
+        version="6-project-toml"
+        tool="scp">
+    <b-fabric>
+      <applicationID>185</applicationID>
+    </b-fabric>
+  </host>
+
 
 </BioBeamerHosts>
