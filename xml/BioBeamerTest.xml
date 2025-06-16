@@ -155,7 +155,7 @@
         syshandler_adress="130.60.81.105"
         syshandler_port="22"
         version="6-project-toml"
-        tool="scp">
+        tool="robocopy">
     <b-fabric>
       <applicationID>185</applicationID>
     </b-fabric>
