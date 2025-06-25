@@ -204,6 +204,29 @@
       <applicationID>185</applicationID>
     </b-fabric>
   </host>
+  <host name="test-Exporis-240"
+        instrument="Analysis"
+        min_size="1024"
+        min_time_diff="2"
+        max_time_diff="2419200"
+        max_time_delete="2"
+        simulate_copy='false'
+        simulate_delete='true'
+        func_target_mapping=""
+        robocopy_mov="false"
+        pattern=""
+        source_path="C:\Users\Thermo\Documents\Trace Test\TestData2San"
+        target_path="\\fgcz-biobeamer.uzh.ch\Data2San"
+        syshandler_adress="fgcz-ms.uzh.ch"
+        syshandler_port="514"
+        version="6-project-toml"
+        tool="robocopy"
+  >
+
+    <b-fabric>
+      <applicationID>185</applicationID>
+    </b-fabric>
+  </host>
 
 
 </BioBeamerHosts>
