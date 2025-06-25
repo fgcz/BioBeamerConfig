@@ -215,7 +215,7 @@
         func_target_mapping=""
         robocopy_mov="false"
         pattern=""
-        source_path="C:\Users\Thermo\Documents\Trace Test\TestData2San"
+        source_path="C:\Users\Thermo\Documents\Trace_Beam_Test"
         target_path="\\fgcz-biobeamer.uzh.ch\Data2San"
         syshandler_adress="fgcz-ms.uzh.ch"
         syshandler_port="514"
