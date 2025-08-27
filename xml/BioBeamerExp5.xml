@@ -1,14 +1,12 @@
 <?xml-stylesheet type="text/xsl" href="BioBeamer.xsl"?>
 <BioBeamerHosts>
-</host>
-        <host name="EXPLORIS_5"
+  <host name="EXPLORIS_5"
           instrument="EXPLORIS_5"
           min_size="500000"
           min_time_diff="300"
           max_time_diff="2419200"
           time_out = "3"
           simulate_copy='true'
-        
           simulate_delete='true'
           func_target_mapping="map_data_for_container"
           robocopy_mov="false"
@@ -22,7 +20,7 @@
           tool="scp"
     >
         <b-fabric>
-            <applicationID>248</applicationID>
+            <applicationID>379</applicationID>
         </b-fabric>
     </host>
   </BioBeamerHosts>
