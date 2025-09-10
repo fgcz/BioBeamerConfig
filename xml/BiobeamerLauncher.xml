@@ -1,4 +1,5 @@
 <?xml-stylesheet type="text/xsl" href="BioBeamer.xsl"?>
+<!-- This file contains old configuration for the new launcher based Biobeamer -->
 <BioBeamerHosts>
 <host name="FGCZ-K-097"
           instrument="QEXACTIVE_1"
