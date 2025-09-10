@@ -22,4 +22,27 @@
             <applicationID>160</applicationID>
         </b-fabric>
     </host>
+
+<host name="ASTRAL_1"
+          instrument="ASTRAL_1"
+          min_size="500000"
+          min_time_diff="300"
+          max_time_diff="2419200"
+          simulate_copy='false'
+          simulate_delete='false'
+          func_target_mapping="map_data_for_container"
+          robocopy_mov="false"
+          pattern=".+ASTRAL_1.+[-0-9a-zA-Z_\/\.\\]+\.(raw)$"
+          source_path="D:/Data2San/"
+          target_path="\\fgcz-biobeamer.uzh.ch\Data2San"
+          syshandler_adress="fgcz-ms.uzh.ch"
+          syshandler_port="514"
+          time_out = "3"
+          version="6-project-toml"
+          tool="robocopy"
+    >
+        <b-fabric>
+            <applicationID>338</applicationID>
+        </b-fabric>
+    </host>
 </BioBeamerHosts>
