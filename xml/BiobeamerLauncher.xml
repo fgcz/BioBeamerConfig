@@ -1,0 +1,24 @@
+<?xml-stylesheet type="text/xsl" href="BioBeamer.xsl"?>
+<BioBeamerHosts>
+<host name="FGCZ-K-097"
+          instrument="QEXACTIVE_1"
+          min_size="1024000"
+          min_time_diff="300"
+          max_time_diff="2419200"
+          simulate_copy='false'
+          simulate_delete='false'
+          func_target_mapping="map_data_for_container"
+          robocopy_mov="false"
+          pattern=".+QEXACTIVE_1.+[-0-9a-zA-Z_\/\.\\]+\.(raw)$"
+          source_path="D:/Data2San/"
+          target_path="\\fgcz-biobeamer.uzh.ch\Data2San"
+          syshandler_adress="fgcz-ms.uzh.ch"
+          syshandler_port="514"
+          version="6-project-toml"
+          tool="robocopy"
+    >
+        <b-fabric>
+            <applicationID>160</applicationID>
+        </b-fabric>
+    </host>
+</BioBeamerHosts>
