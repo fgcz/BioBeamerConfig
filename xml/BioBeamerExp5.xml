@@ -15,9 +15,8 @@
           target_path="ibcexploris5@ibcbeam.fgcz.uzh.ch:EXPLORIS5/"
           syshandler_adress="fgcz-ms.uzh.ch"
           syshandler_port="514"
-          
           version="6-project-toml"
-          tool="scp"
+          tool="sftp"
     >
         <b-fabric>
             <applicationID>379</applicationID>
