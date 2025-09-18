@@ -12,7 +12,7 @@
           robocopy_mov="false"
           pattern=".+EXPLORIS_5.+[-0-9a-zA-Z_\/\.\\]+\.(raw)$"
           source_path="D:/Data2San/"
-          target_path="ibcexploris5@ibcbeam.fgcz.uzh.ch:EXPLORIS5/"
+          target_path="ibcexploris5@ibcbeam.fgcz.uzh.ch:EXPLORIS_5/"
           syshandler_adress="fgcz-ms.uzh.ch"
           syshandler_port="514"
           version="6-project-toml"
