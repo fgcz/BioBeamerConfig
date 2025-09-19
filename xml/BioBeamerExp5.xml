@@ -8,7 +8,7 @@
           time_out="3"
           simulate_copy='false'
           simulate_delete='true'
-          func_target_mapping="map_data_for_container"
+          func_target_mapping=""
           robocopy_mov="false"
           pattern=".+EXPLORIS_5.+[-0-9a-zA-Z_\/\.\\]+\.(raw)$"
           source_path="D:/Data2San/"
